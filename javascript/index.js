@@ -14,8 +14,8 @@ async function fetchData() {
             let redeemed = data[i]["Redemption Status"] === "Yes" ? "Yes" : "No";
             let template = `<tr>
                 <td>${data[i]["Student Name"]}</td>
-                <td>${data[i]["No of Courses Completed"]}</td>
-                <td>${data[i]["No of Quest Completed"]}</td>
+                <td>${data[i]["# of Courses Completed"]}</td>
+                <td>${data[i]["# of Skill Badges Completed"]}</td>
                 <td>${data[i]["# of GenAI Game Completed"]}</td>
                 <td>${completed}</td>
                 <td>${redeemed}</td>
